@@ -20,6 +20,7 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { TermsComponent } from './terms/terms.component';
 import { TrademarkComponent } from './trademark/trademark.component';
 import { CaseStudiesComponent } from './case-studies/case-studies.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { CaseStudiesComponent } from './case-studies/case-studies.component';
     PrivacyComponent,
     TermsComponent,
     TrademarkComponent,
-    CaseStudiesComponent
+    CaseStudiesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
