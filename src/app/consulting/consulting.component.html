@@ -1,0 +1,31 @@
+<h1 class="mt-5">Consulting</h1>
+<p class="lead">We can provide guidance over a range of technical topics to help you navigate your business
+  challenges</p>
+
+<ul>
+<li>Setting up your online business.</li>
+
+<li>Managing the costs of your SMEs website.</li>
+
+<li>Instilling an agile mindset in your development team to improve delivery.</li>
+
+<li>Making the leap to the cloud.</li>
+
+<li>Handling spikes in customer demand.</li>
+</ul>
+<p class="lead">We also provide deep insight and advice about the following technologies</p>
+
+<ul class="list-unstyled">
+  <li class="media my-4" *ngFor="let tech of techs">
+    <img class="mr-3 img-thumbnail" width="64px" src="{{tech.img}}" alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">{{tech.name}}</h5>
+      {{tech.desc}}
+    </div>
+  </li>
+
+
+</ul>
+
+
+
