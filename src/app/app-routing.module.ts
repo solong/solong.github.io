@@ -7,6 +7,7 @@ import {SupportComponent} from './support/support.component';
 import {LegalComponent} from './legal/legal.component';
 import {ConsultingComponent} from './consulting/consulting.component';
 import {CaseStudiesComponent} from './case-studies/case-studies.component';
+import {ContactComponent} from './contact/contact.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'consulting', component: ConsultingComponent},
   { path: 'open-source', component: OpensourceComponent },
   { path: 'support', component: SupportComponent },
+  { path: 'about/contact', component: ContactComponent},
   { path: 'about/legal', component: LegalComponent},
   { path: 'case-studies', component: CaseStudiesComponent}
 
