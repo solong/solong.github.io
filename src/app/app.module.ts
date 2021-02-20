@@ -21,6 +21,9 @@ import { TermsComponent } from './terms/terms.component';
 import { TrademarkComponent } from './trademark/trademark.component';
 import { CaseStudiesComponent } from './case-studies/case-studies.component';
 import { ContactComponent } from './contact/contact.component';
+import { CaseSchematfComponent } from './case-schematf/case-schematf.component';
+import { CaseHatf2Component } from './case-hatf2/case-hatf2.component';
+import { CaseQuotemeComponent } from './case-quoteme/case-quoteme.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +45,10 @@ import { ContactComponent } from './contact/contact.component';
     TermsComponent,
     TrademarkComponent,
     CaseStudiesComponent,
-    ContactComponent
+    ContactComponent,
+    CaseSchematfComponent,
+    CaseHatf2Component,
+    CaseQuotemeComponent
   ],
   imports: [
     BrowserModule,
