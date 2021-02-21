@@ -1,13 +1,54 @@
-<h1 class="mt-5">Case Study: Schema.TF</h1>
+<h1 class="mt-5">Case Study: <small class="text-muted">Schema.TF</small></h1>
 
-<strong>Summary:</strong> SchemaTF provides an interest case of change monitoring, real-time notifications,
+<strong>Summary:</strong> SchemaTF provides an interesting case of change monitoring, real-time notifications,
 and data analysis of long term schema history for digital asset definitions. Deliverables included a reproducible cloud-first implementation in AWS
 using serverless computing to minimize running costs.
 
 <h2 class="mt-5">Background</h2>
 
+<p>According to <a href="https://www.juniperresearch.com/press/press-releases/loot-boxes-and-skins-gambling">Juniper
+    Research</a> the current
+    Video Game loot box market is estimated to be worth $30 billion worldwide.</p>
+
+<p>Digital inventory assets in popular video games such as Dota 2 and Team Fortress 2 derived from these boxes carry
+    significant
+    individual market value. If the item is tradeable the secondary market value can be immense in certain
+    circumstances.
+    If the item is non-tradable it can make the resale value of the account holding the asset increase.</p>
+<p>The release of a new digital asset typically leads to common price patterns. A brief price surge as
+    traders attempt to assess the market value, followed by a dive in price for those assets that fail to gain interest.
+    Key to avoiding losses in this market is being able to make an assessment on the nature of the item in a timely
+    manner.</p>
+<p>As a guide, some of the most high demand, short supply assets, can fetch prices of $30,000 each.</p>
+
+<p>Schema.TF is designed to monitor for schema changes to provide timely information to traders/subscribers
+    about key changes to the market inventory schemas. A schema is a catalog of digital asset definitions, describing
+    the
+    item and its expected attributes. SchemaTF catalogs the changes over time, providing analysis on the differences
+    between the
+    schemas, as well as providing enhanced metadata for each digital asset.</p>
+
 <h2 class="mt-5">Technical Brief</h2>
 
+<p><strong>Summary</strong> To ensure when a change occurs to Valve's 'Team Fortress' schema, the change is recorded for
+    later analysis, while users are notified immediately.</p>
+<ul>
+    <li>Provide a continuous monitoring mechanism for schema changes</li>
+    <li>Strictly adhere to API limits provided in the Terms and Conditions of Steam's service</li>
+    <li>Capture changes and protect against future data loss</li>
+    <li>Notify users through publicly available mediums (Twitter etc)</li>
+    <li>Allow analysis of schema deltas from historical dataset</li>
+    <li>Provide authenticated intermediary data API with appropriately rate limits</li>
+    <li>Web Interface for management of backend services and display of key information</li>
+    <li>Integration with Steam Authentication</li>
+    <li>Item desirability score based on key attributes to alert to potential high value assets</li>
+</ul>
+
+<!--
 <h2 class="mt-5">Technologies</h2>
 
+A number of technologies were key to the delivery of this system.
+
+
 <h2 class="mt-5">Outcomes</h2>
+-->
